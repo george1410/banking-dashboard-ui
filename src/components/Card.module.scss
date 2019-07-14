@@ -1,0 +1,33 @@
+.card {
+  width: 100%;
+  background: #ffffff;
+  padding: 15px 30px;
+  margin: 20px 0;
+  box-sizing: border-box;
+}
+
+.cardTitle {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 0.04rem;
+}
+
+.status {
+  display: flex;
+  font-size: 0.7rem;
+  color: #6d6d6d;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.content {
+  margin-top: 10px;
+}

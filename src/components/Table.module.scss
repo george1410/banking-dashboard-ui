@@ -1,0 +1,26 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td, .table th {
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.table th {
+  color: #6d6d6d;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  text-align: left;
+}
+
+.tableRight, th.tableRight {
+  text-align: right;
+} 
+
+.table td, .table th {
+  border-bottom: 1px solid #d3d3d3;
+}
