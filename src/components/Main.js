@@ -3,6 +3,7 @@ import styles from './Main.module.scss';
 import Card from './Card';
 import Balance from './Balance';
 import Table from './Table';
+import Graph from './Graph';
 
 export default function Header() {
   return (
@@ -27,6 +28,10 @@ export default function Header() {
                 ['14 July 2019', 'TESCO EXPRESS', 'Groceries', '£12.73']
               ]
             }/>
+        </Card>
+
+        <Card title='Graph Test'>
+          <Graph />
         </Card>
       </div>
     </div>
